@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-gloss-helloworld:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-gloss-helloworld:exe:haskell-gloss-helloworld-exe"
+
+    - path: "./app/Paths_haskell-gloss-helloworld.hs"
+      component: "haskell-gloss-helloworld:exe:haskell-gloss-helloworld-exe"
+
+    - path: "./test"
+      component: "haskell-gloss-helloworld:test:haskell-gloss-helloworld-test"
+
